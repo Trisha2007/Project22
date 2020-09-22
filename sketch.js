@@ -25,7 +25,7 @@ function setup() {
 	helicopterSprite.scale=0.6
 
 	groundSprite=createSprite(width/2, height-35, width,10);
-	groundSprite.shapeColor=color(255)
+	groundSprite.shapeColor="blue";
 
 
 	engine = Engine.create();
@@ -47,7 +47,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background(140,180,250);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
